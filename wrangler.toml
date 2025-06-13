@@ -3,5 +3,5 @@ main = "worker.js"
 compatibility_date = "2025-06-10"
 
 [env]
-NAV_DB = "cfnav"
-NAV_AUTH = "NAV_AUTH"
+binding = "NAV_DB"
+database_name = "cfnav" 
