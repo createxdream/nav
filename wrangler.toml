@@ -2,16 +2,6 @@ name = "weathered-base-1f0a"
 main = "worker.js"
 compatibility_date = "2025-06-10"
 
-[env.production]
-# 生产环境的设置
-vars = { 
-    NAV_DB = "cfnav",
-    NAV_AUTH = "NAV_AUTH"
-}
-
-#[env.development]
-# 开发环境的设置
-#vars = { 
-#    NAV_DB = "cfnav",
-#    NAV_AUTH = "NAV_AUTH"
-#}
+[vars]
+NAV_DB = "cfnav",
+NAV_AUTH = "NAV_AUTH"
