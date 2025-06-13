@@ -1507,9 +1507,10 @@ async exportConfig(request, env, ctx) {
     <head>
       <meta charset="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>CFNav - 精品网址导航</title>
+      <title>CFNav - 精品网址导航 - 拾光集导航网</title>
+      <meta name="description" content="CFNav 一个基于Cloudflare 的导航网，拾光集导航网。 " />
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet"/>
-      <link rel="icon" href="https://i.obai.cc/i/logo.svghttps://i.obai.cc/i/logo.svg" type="image/svg"/>
+      <link rel="icon" href="https://i.obai.cc/i/logo.svg" type="image/svg"/>
       <script src="https://cdn.tailwindcss.com"></script>
       <script>
         tailwind.config = {
