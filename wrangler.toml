@@ -1,11 +1,3 @@
 name = "weathered-base-1f0a"
 main = "worker.js"
 compatibility_date = "2025-06-10"
-
-[env]
-binding = "NAV_DB"
-database_name = "cfnav" 
-
-[[kv]]
-binding = "NAV_AUTH"
-id = "NAV_AUTH"
