@@ -9,9 +9,9 @@ vars = {
     NAV_AUTH = "NAV_AUTH"
 }
 
-[env.development]
+#[env.development]
 # 开发环境的设置
-vars = { 
-    NAV_DB = "cfnav",
-    NAV_AUTH = "NAV_AUTH"
-}
+#vars = { 
+#    NAV_DB = "cfnav",
+#    NAV_AUTH = "NAV_AUTH"
+#}
